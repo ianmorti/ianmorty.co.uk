@@ -13,7 +13,7 @@ DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
 production = 'root@localhost:22'
-dest_path = '/var/www'
+dest_path = '/var/www/html'
 
 # Rackspace Cloud Files configuration settings
 env.cloudfiles_username = 'my_rackspace_username'
@@ -34,7 +34,7 @@ def clean():
 
 def build():
     """Build local version of site"""
-    local('pelican -s pelicanconf.py')
+    local('pelican -s pelicanconf.py -t Flex')
 
 def rebuild():
     """`clean` then `build`"""
@@ -78,7 +78,7 @@ def cf_upload():
 @hosts(production)
 def publish():
     """Publish to production via rsync"""
-    local('pelican -s publishconf.py')
+    local('pelican -s publishconf.py -t Flex')
     project.rsync_project(
         remote_dir=dest_path,
         exclude=".DS_Store",
