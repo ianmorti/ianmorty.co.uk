@@ -1,0 +1,23 @@
+title: workflow part one
+author: Ian Mortimer
+date: 2015-02-11
+tags: productivity, plain text
+
+This is something of a rite of passage for a productivity nerd. Having spent a few years in a continual cycle of researching and trialling tools and techniques for getting stuff done, I have finally settled[^1] on a simple system consisting of a few trusted tools and techniques that I'm going to commit to file so that other weary travellers on a similar path might find them useful.
+
+This article is targeted mainly at those with a technical background who are interested in organising notes and tasks in an "electronic format".  What that means is I do most of this stuff from either my iPhone, iPad or Mac[^2]
+
+## Getting things done
+
+### Reference material
+
+### Tasks
+
+### events
+
+
+
+
+[^1]: I say settled but I suspect that I'm just far less inclined to change after having spent so much time massaging lists and tools rather than focussing on the content of the lists. 
+
+[^2]: I mainly use Apple devices but the concepts should be completely transferable to other platforms even if some of the applications are not. 

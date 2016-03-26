@@ -1,0 +1,29 @@
+title: Replacing the elephant in the room
+author: Ian Mortimer
+date: 2015-04-11
+tags: emacs, plain text, productivity
+
+*note* refinements to this process have been made - check back or subscribe to my [feed](https://ianmorty.co.uk/feeds/all.atom.xml) to see it.
+
+Having [ditched the elephant](http://ianmorty.co.uk/post/kicking-the-evernote-habbit), I needed a way of storing all my notes and other snippets of information that was based on plain text and had some simple way of structuring documents.
+
+## Current Setup
+
+As of today, I currently have 1649 plain text documents in a folder on my Dropbox account.  They range in size from 423944 bytes (a file containing annotated log entries for a particular issue involving DNS failures in the product I work on) to 7 bytes (a file containing two unicode characters that I use for sucking up into REST requests when testing API's).  Most of the files here are in markdown format with the rest being either pure plain text, org-mode or some other formatting.
+
+I have several ways of getting text in and out of these files depending on where I am, what I'm doing and what "tool" is closest to hand.
+
+When I'm on my macbook pro at work, I'm living in emacs all day so I've configured my Dropbox directory as a projectile project (by simply placing a `.projectile` in the directory) and then using the amazing [helm](https://github.com/emacs-helm/helm) with [helm-projectile](https://github.com/bbatsov/projectile#helm-integration) integration to find what I want either by name or using `helm-projectile-ag` for content.
+
+The relevant bit of my `.emacs.d/init.el`:
+
+    (projectile-global-mode)
+	(setq projectile-completion-system 'helm)
+	(setq projectile-enable-caching t)
+	(global-set-key (kbd "C-x C-p") 'helm-projectile)
+
+When on my other macs at home, I'll use nvAlt to find what I want or if I'm on the command line, a quick `ag` to search or STDOUT redirection to insert will suffice.
+
+On my iOS devices, I flick between Byword and 1writer depending on my mood.
+
+The filenames are all lower case ascii characters with spaces, are typically consists of several words to forma a sentence to describe the content or purpose of the file.  I use the `.txt` file extension the apps I use all interpret that as a markdown file.
