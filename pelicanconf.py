@@ -41,6 +41,6 @@ COPYRIGHT_YEAR = 2016
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-THEME = "/home/ian/pelican-themes/Flex"
+THEME = "Flex"
 
 STATIC_PATHS = ['img','pages']
