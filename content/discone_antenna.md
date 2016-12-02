@@ -4,8 +4,6 @@ Date: 2016-12-02
 Tags: sdr, 3dprinting 
 Category: SDR
 
-# Building a discone antenna for an SDR dongle
-
 After purchasing an SDR dongle ([NooElec NESDR SMArt](https://www.amazon.co.uk/NooElec-NESDR-SMArt-Enclosure-R820T2-Based/dp/B01GDN1T4S/ref=sr_1_1?ie=UTF8&qid=1480695130&sr=8-1&keywords=nooelec+smart)) and plugging in the stock antenna I managed to pick up a few transmissions, mostly the local taxi rank chattering about traffic and what sounded like a few planes relaying flight information but they were all very quiet and hard to distinguish so an antenna upgrade seemed to be the next logical thing to do.
 
 After some research and wanting to keep the antenna as general purpose as possible at the moment (ideally you want an antenna tuned to the specific band you're interested in) I decided to have a crack at building a [discone antenna](https://en.wikipedia.org/wiki/Discone_antenna).
