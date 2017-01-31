@@ -1,0 +1,62 @@
+==================================================================
+https://keybase.io/ianmortimer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ianmorty.co.uk
+  * I am ianmortimer (https://keybase.io/ianmortimer) on keybase.
+  * I have a public key with fingerprint 31EA B6D1 E9D9 9EF8 29D9  B58D 7D9D 660E A9AB 385D
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0111cb78bd4218254d3b9ee19357981cf20b3938a9b7aae671176341d699c04cc5810a",
+            "fingerprint": "31eab6d1e9d99ef829d9b58d7d9d660ea9ab385d",
+            "host": "keybase.io",
+            "key_id": "7d9d660ea9ab385d",
+            "kid": "0111cb78bd4218254d3b9ee19357981cf20b3938a9b7aae671176341d699c04cc5810a",
+            "uid": "6f6529c11134efe29465b5b8c7aa2019",
+            "username": "ianmortimer"
+        },
+        "service": {
+            "hostname": "ianmorty.co.uk",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1478813371,
+    "expire_in": 157680000,
+    "prev": "0f4a2c196bcc7a9263b3a242520226cdd64c46489886ce19feb32b38a26d6f05",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUj1oFEEU3jMaYkDxIBCwHEwjx7Hzs7MzVwiCjYhYCGITj/l5exkvt3vZ3USP
+5AQFQbs0VhIsLEQMaGVjKi0EtUtjJSqiiJjK0sKZQwvB0mnezLzv+957H2/z0FQ0
+0xxvZYcfPhKLjddfdXTx2Ofn60gXdoQ666gPkwDLFqq623cWdVCMMTY6FdoyggVJ
+mKVaAmBJk1QKbDISayqpUFKnSgFPMU45ZdhyKU3MjEkEjhVqoczlPSiHpctrL0sx
+KM0tBmmlhEwQH3UibGql5TwGJZWmIrGeuFRUgeGb06qCtiv8n390J+39A/+f+16d
+yPGMJ0QaL0oZZEAk44lOtDCeTGIsA7CCMlcD8Gin8kFR1m4AJRq3kE+sOQPB2zDM
+36BR2xTt1b4XGJZFXZhi2eeW6npYdQK3Hg0D+Aro7m+Zrna59WZ6xhqUlSty1MEe
+aUI9f2WpEJjSFLcQXB26ErouIJKUi9ifUAfWgkPZIlPEYMm18WNIwqmmijCSkJgQ
+bqzlzDDOhBSCG+9cBpoS77Ii3PIsTlCYbCUvUIf7PlXPa1aul6t6tQQ0nr11aX/U
+nImmD+wLWxbNHjzyZ/UufGpE97c/8vN7R+/srczbuQdvpqY/fLtx896109+33z/b
+2D3zohHdPdHcOv7u8qnrrxbsztzTsws/dzZ/3H68e654+2Xj5cknvwA=
+=Ssqc
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ianmortimer
+
+==================================================================
